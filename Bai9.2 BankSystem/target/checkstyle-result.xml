@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="C:\Users\May Tinh Thanh Tung\Desktop\NguyenNhatLong_25021854_Week7\Bai9.2 BankSystem\src\main\java\bank_system\Account.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;bank_system&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="17" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="36" column="3" severity="warning" message="&apos;METHOD_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="37" column="3" severity="warning" message="&apos;METHOD_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="38" column="3" severity="warning" message="&apos;METHOD_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+</file>
+<file name="C:\Users\May Tinh Thanh Tung\Desktop\NguyenNhatLong_25021854_Week7\Bai9.2 BankSystem\src\main\java\bank_system\Bank.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;bank_system&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="C:\Users\May Tinh Thanh Tung\Desktop\NguyenNhatLong_25021854_Week7\Bai9.2 BankSystem\src\main\java\bank_system\BankException.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;bank_system&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="C:\Users\May Tinh Thanh Tung\Desktop\NguyenNhatLong_25021854_Week7\Bai9.2 BankSystem\src\main\java\bank_system\CheckingAccount.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;bank_system&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="C:\Users\May Tinh Thanh Tung\Desktop\NguyenNhatLong_25021854_Week7\Bai9.2 BankSystem\src\main\java\bank_system\Customer.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;bank_system&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="21" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="47" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="C:\Users\May Tinh Thanh Tung\Desktop\NguyenNhatLong_25021854_Week7\Bai9.2 BankSystem\src\main\java\bank_system\InsufficientFundsException.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;bank_system&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="9" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="C:\Users\May Tinh Thanh Tung\Desktop\NguyenNhatLong_25021854_Week7\Bai9.2 BankSystem\src\main\java\bank_system\InvalidFundingAmountException.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;bank_system&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="C:\Users\May Tinh Thanh Tung\Desktop\NguyenNhatLong_25021854_Week7\Bai9.2 BankSystem\src\main\java\bank_system\SavingsAccount.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;bank_system&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+</file>
+<file name="C:\Users\May Tinh Thanh Tung\Desktop\NguyenNhatLong_25021854_Week7\Bai9.2 BankSystem\src\main\java\bank_system\Transaction.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;bank_system&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="22" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+</checkstyle>

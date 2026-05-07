@@ -1,0 +1,33 @@
+name: Java CI for Bai 9.3
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Build with Maven
+      # Đảm bảo tên thư mục này khớp chính xác tuyệt đối với thư mục bạn có
+      working-directory: "Bai9.3 CI,CD automation"
+      run: mvn clean package
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Bai9.3-Jar-File
+        path: "Bai9.3 CI,CD automation/target/*.jar"

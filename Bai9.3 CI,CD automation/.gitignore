@@ -1,0 +1,21 @@
+# Các file build của Maven
+target/
+*.jar
+*.war
+*.ear
+
+# Các file cấu hình của VSCode
+.vscode/
+.factorypath
+
+# Các file hệ thống và logs
+*.log
+.DS_Store
+thumbs.db
+
+# Các file của IDE khác (nếu có ai đó dùng IntelliJ hoặc Eclipse)
+.idea/
+*.iml
+.project
+.classpath
+.settings/

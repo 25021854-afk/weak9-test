@@ -1,0 +1,29 @@
+name: Workflow Bai 9.5 Jacoco
+
+on:
+  push:
+    paths:
+      - 'Bai9.5 jacoco/**'
+      - '.github/workflows/bai5.yml'
+
+jobs:
+  coverage-check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: "Bai9.5 jacoco"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
+      - name: Run Maven Verify
+        run: mvn clean verify
+      - name: Upload JaCoCo Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jacoco-report-bai9.5
+          path: Bai9.5 jacoco/target/site/jacoco/
